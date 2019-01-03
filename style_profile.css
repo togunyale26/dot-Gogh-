@@ -1,0 +1,202 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	
+}
+
+.container-pro {
+	height: 100%;
+	width: 100%;
+}
+
+.menu-nav-pro {
+	float: left;
+	width: 18%;
+	height: 100%;
+}
+
+.main-menu-pro {
+	float: right;
+	width: 82%;
+	height: 100%;
+	
+}
+
+.menu-nav-pro nav ul li {
+	list-style: none;
+	padding: 10px 10px;	
+}
+
+.center-img-pro {
+	height: 75%;
+	width: 75%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10%;
+}
+
+.full-name-pro {
+	
+	margin-left:10%;
+	
+	font-size: 75px;
+	margin-top: 10%;
+}
+.handle-pro {
+	
+	margin-left:25%;
+	
+	font-size: 25px;
+	margin-top: 0.5%;
+}
+.bio-pro{
+	
+	margin-left:25%;
+
+	font-size: 15px;
+	margin-top: 2%;
+
+}
+
+img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border:2px solid white;
+	
+}
+
+.middle-3-pro{
+	width: 64%;
+	height: 100%;
+	float: left;
+	border-collapse: collapse;
+
+}
+
+.left-3-pro{
+	width: 18%;
+	height: 100%;
+	float: left;
+	border-collapse: collapse;
+
+}
+
+.right-3-pro{
+	width: 18%;
+	height: 100%;
+	float: right;
+	border-collapse: collapse;
+
+}
+
+.top-pro{
+	width: 100%;
+	height: 45%;
+	border-collapse: collapse;
+}
+
+.left-2-pro {
+	width: 40%;
+	height: 100%;
+	float: left;
+	border-collapse: collapse;
+
+}
+
+.right-2-pro{
+	width: 60%;
+	height: 100%;
+	float: right;
+	border-collapse: collapse;
+
+}
+
+.error-pro {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+.success-pro{
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: lightgreen; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+.tab-pro{
+	width: 64%;
+	height: 100%;
+	margin-top: 20%;
+
+}
+
+.center-pro{
+	margin-right: auto;
+	margin-left: auto;
+	align-items:center;
+	justify-content:center;
+}
+
+.alert-bad-pro {
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+
+.closebtn-pro {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.alert-green-pro {
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.row-pro {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-pro {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column-pro img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
