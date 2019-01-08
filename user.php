@@ -58,11 +58,21 @@ include ('server.php'); ?>
 							<div class="right-3-pro"></div>
 							<div class="middle-3-pro">
 								
-								<div class="row-pro">
-									<div class="column-pro">
-										<?php if (isset($_SESSION['success'])): ?>
-											
+								<div class="row">
+									<div class="col">
+										<div class="container">
+											<div class="d-flex flex-column bd-highlight mb-4 mx-auto">
+												<div class="p-2 bd-highlight mx-auto"><img src="/AWS/images/camera-canon-digital-42066.jpg" ></div>
+												<div class="p-2 bd-highlight mx-auto">Flex item 2</div>
+												<div class="p-2 bd-highlight mx-auto">Flex item 3</div>
+											</div>
+											<div class="d-flex flex-column-reverse bd-highlight">
+												<div class="p-2 bd-highlight mx-auto">Flex item 1</div>
+												<div class="p-2 bd-highlight mx-auto">Flex item 2</div>
+												<div class="p-2 bd-highlight mx-auto">Flex item 3</div>
+											</div>
 
+										</div>
 									</div>
 								</div>
 							</div>

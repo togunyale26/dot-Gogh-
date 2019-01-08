@@ -12,18 +12,19 @@ include('server.php');?>
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	crossorigin="anonymous">
-<link rel="stylesheet" href="/AWS/homestyle.css"
-	type="text/css">
+	<link rel="stylesheet" href="/AWS/nav_style.css" type="text/css">
 
 </head>
-<body class="bg-light">
-	<div class="container h-100 sticky-bottom">
-		<div class="row align-items-center h-100">
-			<div class="col-6 mx-auto">
-				<div class="jumbotron text-center" style="margin-top: 10%;">
-					<h1 class="display-4">VanStore</h1>
-					<p class="lead">Personalized Art Portfolios!</p>
-					<p class="lead">
+<body class="bg-black">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-4 mx-auto mt-5">
+				<div class="jumbotron text-center bg-white" style="margin-top: 10%;">
+					<h1 class="display-4 mb-3"> 
+						<a href="index.php">
+							<img src="/AWS/img/00.png" width="100" height="100">
+						</a>
+					</h1>
 					<form id="NewUser" action="login.php" method="post">
 					<?php include 'errors.php';?>
 						<div class="input-group mb-3">
@@ -41,7 +42,7 @@ include('server.php');?>
 						<div class="input-group mb-3">
 							<button name="login" type="submit" class="btn btn-dark btn-lg btn-block"> Log In </button>
 						</div>
-						<p> Don't have an account? <a href="register.php"> Register Here</a></p>
+						<p class="text-secondary"> Don't have an account? <a href="register.php" class="text-dark"> Register Here</a></p>
 					</form>
 				</div>
 			</div>

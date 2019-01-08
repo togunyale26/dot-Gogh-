@@ -97,8 +97,8 @@ if (isset($_POST['login'])) {
     if ($num != 1) {
         array_push($errors, "Username/Password Combo Does not exists");
     } else {
-        $query = "SELECT `firstname`, `lastname`, `email`, `username`, `password`, `bio` FROM `users` WHERE `username`='$username'";
-        $result = mysqli_query($mysqli, $query);
+        $sql = "SELECT `firstname`, `lastname`, `email`, `username`, `password`, `bio` FROM `users` WHERE `username`='$username'";
+        $result = mysqli_query($mysqli, $sql);
         $account = mysqli_fetch_row($result);
 
         
