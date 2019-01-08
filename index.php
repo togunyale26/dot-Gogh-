@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="nav_style.css"type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
@@ -26,13 +28,26 @@
 	</div>
 </nav>
 
+<header class="headliner bg-black">
+	<div class="headline-content">
+		<div class="container text-center">
+			<h1 class="text-center display-4"> 
+				Welcome  to
+				<img src="/AWS/img/00.png" width="100" height="100" class=" ml-0 logo">
+			</h1>
+		</div>
+	</div>
+	
+</header>
+
+
 
 <section>
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-6 order-lg-2">
 				<div class="p-5">
-					<img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
+					<img class=" rounded-circle" src="img/01.jpg" alt="" width="500" height="500">
 				</div>
 			</div>
 			<div class="col-lg-6 order-lg-1">
@@ -50,7 +65,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6">
 				<div class="p-5">
-					<img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
+					<img class="rounded-circle" src="img/04.jpg" alt="" width="500" height="500">
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -68,7 +83,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 order-lg-2">
 				<div class="p-5">
-					<img class="img-fluid rounded-circle" src="img/05.jpg" alt="">
+					<img class="rounded-circle" src="img/05.jpg" alt="" width="500" height="500">
 				</div>
 			</div>
 			<div class="col-lg-6 order-lg-1">
