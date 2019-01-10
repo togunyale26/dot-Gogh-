@@ -74,7 +74,7 @@ if (isset($_POST['register'])) {
         $_SESSION['success'] = $bio;
         $_SESSION['password'] = $password;
         $_SESSION['bio'] = " Bio Appers Here !!";
-        header('location: user.php');
+        header('location: active_user.php');
     }
 }
 
@@ -109,7 +109,7 @@ if (isset($_POST['login'])) {
         $_SESSION['bio'] = $account[5];
         $_SESSION['username'] = $username;
         $_SESSION['success'] = "You are Logged In";
-        header('location: user.php');
+        header('location: active_user.php');
     }
 }
 
